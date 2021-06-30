@@ -1,0 +1,1 @@
+sshpass -f pass ssh -o StrictHostKeyChecking=no atlasapp@atlase01.infoshop.com.tr 'hive -S -e "select max(Id) from cacteam.BW_commercedisposedeviceidfromcampaign"' > /hadoop/datalakeprod/test/test.txt
